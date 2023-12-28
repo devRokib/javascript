@@ -30,3 +30,28 @@ function minuesBy2(element){
  const minuse = modifyArr([1,3,4,6,8] ,minuesBy2 )
  const multify = modifyArr([1,3,4,6,8] ,multyfyBy3 )
 console.log(add,minuse,multify)
+//=================//
+
+function areaCalculate(arrayWidth, callback) {
+    const area = arrayWidth.map((x) => callback(x));
+    return area;
+}
+ 
+function circleArea(radius) {
+    return Math.PI * radius * radius;
+}
+ 
+function squareArea(side) {
+    return side * side;
+}
+ 
+const array = [2, 6, 7, 8, 3, 1, 5];
+ 
+var circleAreaArray = areaCalculate(array, circleArea);
+// console.log(circleAreaArray);
+ 
+var squareAreaArray = areaCalculate(array, squareArea);
+// console.log(squareAreaArray);
+ 
+// console.log(array);
+console.log(radius)
