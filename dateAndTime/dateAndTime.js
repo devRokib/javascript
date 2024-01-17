@@ -30,11 +30,17 @@ const anotherDateTwo = Date.now()
 // console.log(dateOne.getUTCDate())
 // console.log(dateOne.getUTCDay())
 // console.log(dateOne.getTime("3-1-2024"))
-const anotehr = Date.now()
+// const anotehr = Date.now()
 // console.log(Math.floor(anotehr/1000))
-const newDate = new Date()
-const newDateResult = newDate.toLocaleString("default",{
-    weekday:"long",
+// const newDate = new Date()
+// const newDateResult = newDate.toLocaleString("default",{
+//     weekday:"long",
     
-})
-console.log(newDateResult)
+// })
+// console.log(newDateResult)
+var x = 20;
+if(true){
+    let x = 30;
+    console.log(x) 
+}
+console.log(x)
