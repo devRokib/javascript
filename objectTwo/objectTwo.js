@@ -33,3 +33,4 @@ const newObj4 = {d:"kds",e:"ksjdjf",f:"ui"}
 const newObj5 = {d:"i",e:"j",f:"k"}
 const resObj2 = {...newObj3,...newObj4,...newObj5}
 console.log(resObj2)
+console.log('hello world')
